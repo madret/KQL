@@ -1,5 +1,5 @@
 # Monikerlink bug
-### Remote exploitation attempt of CVE-2024-21413 in outlook
+### Detection of a remote exploitation attempt of CVE-2024-21413 in outlook
 ```
 DeviceProcessEvents
 | where ProcessCommandLine contains "rundll32.exe C:\\WINDOWS\\system32\\davclnt.dll,DavSetCookie"
