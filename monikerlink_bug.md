@@ -1,4 +1,4 @@
-# Monikerbug detection
+# Monikerlink bug
 ### Remote exploitation attempt of CVE-2024-21413 in outlook
 ```
 DeviceProcessEvents
