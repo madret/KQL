@@ -15,4 +15,4 @@ DeviceProcessEvents
 ```
 
 #### Detection query on KQLSearch: 
-https://github.com/ugurkocde/kql_search_submissions/blob/main/Outlook%20monikerlink%20zeroday.kql
+https://www.kqlsearch.com/query/Outlook%20Monikerlink%20Zeroday&clx4u548s000g5iion9h4hok2
