@@ -13,3 +13,6 @@ DeviceProcessEvents
 ) on DeviceName
 | project-reorder Timestamp, AccountUpn, ProcessCommandLine, DeviceName, RemotePort, InitiatingProcessFileName
 ```
+
+##### Detection query on KQLSearch: 
+https://github.com/ugurkocde/kql_search_submissions/blob/main/Outlook%20monikerlink%20zeroday.kql
