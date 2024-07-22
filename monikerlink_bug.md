@@ -1,4 +1,7 @@
 # Monikerlink bug
+A special crafted link can bypass the existing Outlook security restriction for remote files. This query detects a potential successful exploitation of the MonikerLink bug in Microsoft office products, like outlook. The detection logic does so by checking if the processcommandline contains davclnt.dll,DavSetCookie, which is an extension of the HTTP protocol that allows clients to perform remote web content operations. Hereafter the regex searches for valid IPv4 addresses in the processcommandline field. The query is build on the hypothesis that a user clicked the following link from an outlook client: 
+`file:///\\<IPv4>\<string>\<file.extension>!something`
+
 ### Detection of a remote exploitation attempt of CVE-2024-21413 in outlook
 ```
 DeviceProcessEvents
