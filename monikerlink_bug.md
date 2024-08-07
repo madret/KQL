@@ -19,3 +19,6 @@ DeviceProcessEvents
 
 #### Detection query on KQLSearch: 
 https://www.kqlsearch.com/query/Outlook%20Monikerlink%20Zeroday&clx4u548s000g5iion9h4hok2
+
+#### Check point research reference:
+https://research.checkpoint.com/2024/the-risks-of-the-monikerlink-bug-in-microsoft-outlook-and-the-big-picture
